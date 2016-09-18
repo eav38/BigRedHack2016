@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="BinGOTheme" parent="Theme.AppCompat.Light.NoActionBar">
+                <item name="colorPrimaryDark">@color/holo_green_dark</item>
+                <item name="colorAccent">@color/holo_green_light</item>
+                <item name="colorPrimary">@color/holo_green_light</item>
+                <item name="android:textColorPrimary">@android:color/secondary_text_light</item>
+                <item name="android:colorBackground">@color/BinGO_base</item>
+                <item name="android:navigationBarColor">@color/holo_green_dark</item>
+                <item name="android:colorForeground">@color/foreground_material_light</item>
+                <item name="android:textColorSecondaryInverse">@color/secondary_text_material_dark
+                </item>
+                <item name="android:textColorSecondary">@color/holo_green_dark</item>
+                <item name="android:textColorPrimaryInverse">@color/BinGO_base</item>
+                <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        </style>
+</resources>

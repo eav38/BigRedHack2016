@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:layout_gravity="right">
+
+        <ImageButton
+            android:layout_width="59dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageButton"
+            android:src="@drawable/maintree"
+            android:maxHeight="250dp"
+            android:maxWidth="200dp"
+            android:minHeight="100dp"
+            android:minWidth="100dp"
+            android:scaleType="fitXY"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:clickable="true" />
+
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/logo"
+            android:layout_gravity="right"
+            android:layout_alignTop="@+id/imageButton"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_alignBottom="@+id/imageButton" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item"
+        android:src="@drawable/itembutton"
+        android:id="@+id/itemButton"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="itemCamera" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bin"
+        android:src="@drawable/binbutton"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="tagBin" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Map"
+        android:src="@drawable/mapbutton"
+        android:background="@android:color/transparent"
+        android:id="@+id/binButton"
+        android:onClick="viewMap"
+        android:clickable="true"
+        android:enabled="true"
+        android:layout_marginBottom="70dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Inventory: 0"
+        android:id="@+id/textView"
+        android:layout_marginRight="30dp"
+        android:textStyle ="bold"
+        android:layout_gravity="right|bottom" />
+
+</LinearLayout>

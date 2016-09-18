@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BinGOTheme" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="colorPrimaryDark">@color/holo_green_dark</item>
+        <item name="colorAccent">@color/holo_green_light</item>
+        <item name="colorPrimary">@color/holo_green_light</item>
+        <item name="android:textColorPrimary">@android:color/secondary_text_light</item>
+        <item name="android:colorBackground">@color/BinGO_base</item>
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+        <item name="android:textColorSecondaryInverse">@color/secondary_text_material_dark</item>
+        <item name="android:textColorSecondary">@color/holo_green_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/BinGO_base</item>
+    </style>
+
+</resources>
